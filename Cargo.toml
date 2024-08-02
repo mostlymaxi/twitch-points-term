@@ -1,0 +1,10 @@
+[package]
+name = "points-term"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ctrlc = { version = "3.4.4", features = ["termination"] }
+log = "0.4.22"
+memmap2 = "0.9.4"
+mmap-wrapper = "0.9.9"
